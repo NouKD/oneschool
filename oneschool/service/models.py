@@ -21,5 +21,5 @@ class Cours(models.Model):
     class Meta:
         verbose_name = 'Cours'
         verbose_name_plural = 'Cours'
-        def __str__(self):
-            return self.nom
+    def __str__(self):
+        return self.nom

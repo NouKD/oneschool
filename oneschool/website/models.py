@@ -32,8 +32,8 @@ class Etudiant(models.Model):
     class Meta:
         verbose_name = 'Etudiant'
         verbose_name_plural = 'Etudiants'
-        def __str__(self):
-            return self.nom
+    def __str__(self):
+        return self.nom
 
 
 class Teacher(models.Model):
@@ -49,8 +49,8 @@ class Teacher(models.Model):
     class Meta:
         verbose_name = 'Teacher'
         verbose_name_plural = 'Teachers'
-        def __str__(self):
-            return self.nom
+    def __str__(self):
+        return self.nom
 
 class Commentaire(models.Model):
     nom = models.CharField(max_length=40)
@@ -66,5 +66,5 @@ class Commentaire(models.Model):
     class Meta:
         verbose_name = 'Teacher'
         verbose_name_plural = 'Teachers'
-        def __str__(self):
-            return self.nom
+    def __str__(self):
+        return self.nom
